@@ -1,0 +1,84 @@
+/*Link that lets me use some fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: whitesmoke;
+}
+
+/*header*/
+.site-header{
+    background-color: #FAEDCD;
+}
+.site-header h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-shadow: 4px 4px white;
+}
+.site-header .title{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.site-header .location{
+    text-align: center;
+}
+.site-header .location i{
+    margin-right: 2px;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    background-color: #FEFAE0;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-left: 20px solid #E9EDC9;
+}
+h1,h2,h3{
+    text-align: center;
+    margin:5px
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*Animations*/
+.site-header .location:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.site-header .title:hover{
+    text-shadow: 5px 5px white;
+}
+.container:hover{
+    background-color: #CCD5AE;
+}
+ul li:hover{
+    background-color: #FAEDCD;
+    border-left: none;
+    border-right: 20px solid #CCD5AE;
+}
+
+/*Utilities*/
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E9EDC9;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
